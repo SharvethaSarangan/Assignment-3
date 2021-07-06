@@ -125,12 +125,12 @@ public class Finance1 extends JFrame {  //2.1 GUI Finance
 				double overalltotalexpenses;
 		
 				try {
-					booksexpenses = Integer.parseInt(books.getText());
-					stationaryexpenses = Integer.parseInt(stationary.getText());
-					otherexpenses =Integer.parseInt(others.getText());
-					booksexpenses1 = Integer.parseInt(books_1.getText());
-					stationaryexpenses1 = Integer.parseInt(stationary_1.getText());
-					otherexpenses1 =Integer.parseInt(others_1.getText());
+					booksexpenses = Double.parseDouble(books.getText());
+					stationaryexpenses = Double.parseDouble(stationary.getText());
+					otherexpenses =Double.parseDouble(others.getText());
+					booksexpenses1 = Double.parseDouble(books_1.getText());
+					stationaryexpenses1 = Double.parseDouble(stationary_1.getText());
+					otherexpenses1 =Double.parseDouble(others_1.getText());
 					
 					overalltotalexpenses =(booksexpenses)+(stationaryexpenses)+(otherexpenses)+(booksexpenses1)+(stationaryexpenses1)+(otherexpenses1);
 					
@@ -296,9 +296,9 @@ public class Finance1 extends JFrame {  //2.1 GUI Finance
 				double totalexpenses;
 		
 				try {
-					booksexpenses = Integer.parseInt(books.getText());
-					stationaryexpenses = Integer.parseInt(stationary.getText());
-					otherexpenses =Integer.parseInt(others.getText());
+					booksexpenses = Double.parseDouble(books.getText());
+					stationaryexpenses = Double.parseDouble(stationary.getText());
+					otherexpenses =Double.parseDouble(others.getText());
 					
 					totalexpenses =(booksexpenses)+(stationaryexpenses)+(otherexpenses);
 					
@@ -373,9 +373,9 @@ public class Finance1 extends JFrame {  //2.1 GUI Finance
 				double totalexpenses1;
 		
 				try {
-					booksexpenses1 = Integer.parseInt(books_1.getText());
-					stationaryexpenses1 = Integer.parseInt(stationary_1.getText());
-					otherexpenses1 =Integer.parseInt(others_1.getText());
+					booksexpenses1 = Double.parseDouble(books_1.getText());
+					stationaryexpenses1 = Double.parseDouble(stationary_1.getText());
+					otherexpenses1 =Double.parseDouble(others_1.getText());
 					
 					totalexpenses1 =(booksexpenses1)+(stationaryexpenses1)+(otherexpenses1);
 					
